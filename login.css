@@ -1,5 +1,10 @@
 body, html {
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -8,7 +13,7 @@ body, html {
 
 .bg-image {
   /* The image used */
-  background-image: url("laptopcoffeeshop.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("laptopcoffeeshop.webp");
 
   /* Add the blur effect */
   filter: blur(8px);
@@ -26,7 +31,7 @@ body, html {
 /* Position text in the middle of the page/image */
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -38,4 +43,51 @@ body, html {
   width: 45%;
   padding: 20px;
   text-align: center;
+}
+
+
+/* Style the input container */
+.input-container {
+  position: relative;
+             display: block;
+             margin : 0 auto;
+  display: flex;
+  left: 20%;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: grey;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: Silver;
+  opacity: 1; /* Firefox */
+}
+/* Style the input fields */
+.input-field {
+  width: 50%;
+  padding: 10px;
+  outline: none;
+  background: transparent;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.btn {
+  background-color: grey;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
 }
