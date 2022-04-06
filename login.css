@@ -13,7 +13,7 @@ h1 {
 
 .bg-image {
   /* The image used */
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("laptopcoffeeshop.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("laptopcoffeeshop.webp");
 
   /* Add the blur effect */
   filter: blur(8px);
